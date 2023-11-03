@@ -1,3 +1,6 @@
+/*In ExpenseList you are importing your AppContext and useContext hook like before. Here, you are creating a list, 
+using the map function to iterate over the expenses, and displaying an ExpenseItem component. */
+
 import React, { useContext } from 'react';
 import ExpenseItem from './ExpenseItem';
 import { AppContext } from '../context/AppContext';
