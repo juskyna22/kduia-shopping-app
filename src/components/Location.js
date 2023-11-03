@@ -1,3 +1,7 @@
+/*In Location.js, you are importing AppContext and adding changeLication class to change the location 
+along with its currencies. 
+When you change the Location, currencies will be updated at all the required places.*/
+
 import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 
