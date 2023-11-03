@@ -1,3 +1,7 @@
+/* In ItemSelected, you are importing AppContext and useContext as usual and getting dispatch from your global state.
+ You are creating an event to reduce or add quantity.You are dispatching an action, with a type and your payload.
+ The type tells the reducer how to update the state.*/ 
+ 
 import React, { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
 
