@@ -1,3 +1,9 @@
+
+/*In ExpenseItem you are importing dispatch from Context, which allows you to dispatch a delete action. 
+You are creating a function that gets called when the delete icon is clicked.
+*/
+
+
 import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 import { FaTimesCircle } from 'react-icons/fa';
