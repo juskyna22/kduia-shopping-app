@@ -1,3 +1,7 @@
+/*Here, you are importing different components,adding a bootstrap container that helps you center your App 
+on the page. 
+Importing your AppProvider and nested your components in the AppProvider element.*/
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
