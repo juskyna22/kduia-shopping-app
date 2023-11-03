@@ -1,3 +1,9 @@
+/* In AppContext.js you are setting the initial state of Expenses and Location. 
+You can see how the items, their respective unit price are all added to Expenses. 
+Here, you are adding an initial expenses, creating a Provider component, setting up the useReducer hook which will 
+hold your state, and allow you to update the state via dispatch.
+Adding a new case to the switch statement called “ADD_QUANTITY”, “RED_QUANTITY”, “DELETE_ITEM”, “CHG_LOCATION”. */
+
 import React, { createContext, useReducer } from 'react';
 
 // 5. The reducer - this is used to update the state, based on the action
