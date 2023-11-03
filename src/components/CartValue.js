@@ -1,3 +1,11 @@
+//All of these components will be using redux for state management through AppContext.js. 
+
+/* Here, you are importing AppContext from your Context.Import the useContext hook, and pass your AppContext 
+to it - this is how a component connects to the context in order to get values from global state. 
+The Bootstrap Alert classes are used to give a nice gray background by adding some text and hard coding a value.
+
+Now if you change the budget in AppContext and reload your browser, you will see the budget updates on the UI.*/
+
 import React, { useContext } from 'react';
 import { AppContext } from '../context/AppContext';
 
@@ -13,5 +21,6 @@ const CartValue = () => {
         </div>
     );
 };
+
 
 export default CartValue;
